@@ -6,6 +6,8 @@ I wanted to examine whether hotel prices on booking.com in Hamburg, Germany, whe
 
 # Scraping
 I used Soma's class guidance to scrape the website of booking.com. It was quite a challenge to find the price and hotel names in the
-inspector, because it contained so much code. 
+inspector, because it contained so much code. I found them eventually and created a df with price and hotel name, and imported this into a csv.
+
+I used Soma's autoscraping lesson to set up the automatic scraping through Github.
 
 # Analysis
