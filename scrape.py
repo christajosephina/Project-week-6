@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[86]:
 
 
-pip install selenium
+#pip install selenium
 
 
 # In[2]:
