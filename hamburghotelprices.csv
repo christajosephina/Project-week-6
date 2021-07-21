@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ,Hotel,Price
 0,"
 Barceló Hamburg
@@ -29,3 +30,31 @@ Reichshof Hamburg, Curio Collection by Hilton
 9,"
 JUFA Hotel Hamburg HafenCity
 ",€ 99
+=======
+,Hotel,Price,Date
+0,Ruby Lotti Hotel Hamburg,€ 101,2021-07-21
+1,ibis Hotel Hamburg Alster Centrum,€ 85,2021-07-21
+2,Lindner Hotel Am Michel,€ 131,2021-07-21
+3,prizeotel Hamburg-City,€ 67,2021-07-21
+4,25hours Hotel HafenCity,€ 159,2021-07-21
+5,Scandic Hamburg Emporio,€ 119,2021-07-21
+6,Boutique 020 Hamburg City,€ 89,2021-07-21
+7,IntercityHotel Hamburg Dammtor-Messe,€ 109,2021-07-21
+8,Ibis Hamburg City,€ 83,2021-07-21
+9,Hotel Baseler Hof,€ 103,2021-07-21
+"10,""Crowne Plaza Hamburg City Centre, an IHG Hotel"",€ 109,2021-07-21"
+11,Tortue Hamburg,€ 195,2021-07-21
+12,Novotel Hamburg City Alster,€ 109,2021-07-21
+13,a&o Hamburg Hauptbahnhof,€ 14,2021-07-21
+14,Novotel Suites Hamburg City,€ 99,2021-07-21
+15,Park Hotel am Berliner Tor,€ 85,2021-07-21
+16,PIERDREI Hotel HafenCity Hamburg,€ 125,2021-07-21
+17,NH Hamburg Altona,€ 97,2021-07-21
+18,Leonardo Hotel Hamburg City Nord,€ 79,2021-07-21
+19,Novum Hotel Ambassador,€ 52,2021-07-21
+20,Leonardo Hotel Hamburg Elbbrücken,€ 74,2021-07-21
+21,Novum Hotel Graf Moltke Hamburg,€ 57,2021-07-21
+22,Best Western Plaza Hotel Hamburg,€ 67,2021-07-21
+23,Park Hotel Hamburg Arena,€ 69,2021-07-21
+24,Leonardo Hotel Hamburg Airport,€ 74,2021-07-21
+>>>>>>> Stashed changes
