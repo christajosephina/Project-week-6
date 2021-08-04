@@ -1,9 +1,101 @@
-
-
-
-
-
-
-
-
-
+hotel,price,date
+0,NH Collection Hamburg City,€ 201,2021-07-31
+1,ibis Hotel Hamburg Alster Centrum,€ 105,2021-07-31
+2,Novotel Suites Hamburg City,€ 134,2021-07-31
+3,Novotel Hamburg City Alster,€ 114,2021-07-31
+4,prizeotel Hamburg-City,€ 74,2021-07-31
+5,Best Western Plaza Hotel Hamburg,€ 65,2021-07-31
+6,NH Hamburg Horner Rennbahn,€ 97,2021-07-31
+7,Ibis Hamburg City,€ 99,2021-07-31
+8,Leonardo Hotel Hamburg Elbbrücken,€ 94,2021-07-31
+9,H4 Hotel Hamburg Bergedorf,€ 88,2021-07-31
+10,NH Hamburg Altona,€ 119,2021-07-31
+11,ibis budget Hamburg Altona,€ 59,2021-07-31
+12,NH Hamburg Mitte,€ 131,2021-07-31
+13,ibis Hotel Hamburg Airport,€ 72,2021-07-31
+14,Leonardo Hotel Hamburg City Nord,€ 99,2021-07-31
+15,Ibis budget Hamburg City Ost,€ 56,2021-07-31
+16,Leonardo Hotel Hamburg Airport,€ 109,2021-07-31
+17,Leonardo Hotel Hamburg Stillhorn,€ 84,2021-07-31
+"18,""Radisson Blu Hotel, Hamburg Airport"",€ 159,2021-07-31"
+19,Hyperion Hotel Hamburg,€ 173,2021-07-31
+20,Select Hotel Hamburg Nord,€ 72,2021-07-31
+21,Mercure Hotel Hamburg City,€ 134,2021-07-31
+"22,""Radisson Blu Hotel, Hamburg"",€ 169,2021-07-31"
+23,25hours Hotel HafenCity,€ 179,2021-07-31
+24,a&o Hamburg Hauptbahnhof,€ 24,2021-07-31
+0,H4 Hotel Hamburg Bergedorf,€ 78,2021-08-01
+"1,""Holiday Inn - Hamburg - Berliner Tor, an IHG Hotel"",€ 99,2021-08-01"
+2,Apartment-Hotel Hamburg Mitte,€ 68,2021-08-01
+3,Moxy Hamburg City,€ 104,2021-08-01
+4,CAB20,€ 40,2021-08-01
+5,Hampton By Hilton Hamburg City Centre,€ 143,2021-08-01
+6,NH Collection Hamburg City,€ 135,2021-08-01
+"7,""Crowne Plaza Hamburg City Centre, an IHG Hotel"",€ 129,2021-08-01"
+8,ibis Hotel Hamburg Alster Centrum,€ 90,2021-08-01
+9,Super 8 by Wyndham Hamburg Mitte,€ 90,2021-08-01
+10,Novotel Suites Hamburg City,€ 114,2021-08-01
+11,Generator Hamburg,€ 20,2021-08-01
+12,Novotel Hamburg City Alster,€ 104,2021-08-01
+13,Courtyard by Marriott Hamburg City,€ 99,2021-08-01
+14,NH Hamburg Mitte,€ 87,2021-08-01
+15,Ibis Hamburg City,€ 83,2021-08-01
+16,prizeotel Hamburg-City,€ 74,2021-08-01
+17,ARCOTEL Onyx Hamburg,€ 83,2021-08-01
+"18,""Holiday Inn - Hamburg - HafenCity, an IHG Hotel"",€ 89,2021-08-01"
+19,Park Hotel am Berliner Tor,€ 71,2021-08-01
+20,Best Western Plaza Hotel Hamburg,€ 60,2021-08-01
+21,Leonardo Hotel Hamburg City Nord,€ 74,2021-08-01
+22,Leonardo Hotel Hamburg Airport,€ 69,2021-08-01
+23,Lindner Hotel Am Michel,€ 139,2021-08-01
+24,Leonardo Hotel Hamburg Elbbrücken,€ 74,2021-08-01
+0,Elbbrücken Hotel,€ 64,2021-08-02
+1,CAB20,€ 45,2021-08-02
+2,ibis Hotel Hamburg Alster Centrum,€ 85,2021-08-02
+3,Hampton By Hilton Hamburg City Centre,€ 143,2021-08-02
+"4,""Holiday Inn Hamburg - City Nord, an IHG Hotel"",€ 104,2021-08-02"
+5,Generator Hamburg,€ 19,2021-08-02
+6,Novotel Suites Hamburg City,€ 124,2021-08-02
+7,Ibis Hamburg City,€ 83,2021-08-02
+"8,""Crowne Plaza Hamburg City Centre, an IHG Hotel"",€ 129,2021-08-02"
+9,prizeotel Hamburg-City,€ 74,2021-08-02
+10,Novotel Hamburg City Alster,€ 119,2021-08-02
+11,Super 8 by Wyndham Hamburg Mitte,€ 109,2021-08-02
+12,Lindner Hotel Am Michel,€ 170,2021-08-02
+13,NH Hamburg Altona,€ 97,2021-08-02
+14,Best Western Plaza Hotel Hamburg,€ 65,2021-08-02
+15,ibis budget Hamburg Altona,€ 56,2021-08-02
+16,ibis Hotel Hamburg Airport,€ 67,2021-08-02
+17,ARCOTEL Onyx Hamburg,€ 117,2021-08-02
+18,Leonardo Hotel Hamburg Elbbrücken,€ 94,2021-08-02
+19,Leonardo Hotel Hamburg City Nord,€ 94,2021-08-02
+20,NH Hamburg Mitte,€ 139,2021-08-02
+21,Leonardo Hotel Hamburg Airport,€ 84,2021-08-02
+22,Ibis budget Hamburg City Ost,€ 59,2021-08-02
+"23,""Holiday Inn - Hamburg - HafenCity, an IHG Hotel"",€ 129,2021-08-02"
+24,NH Hamburg Horner Rennbahn,€ 98,2021-08-02
+0,Elbbrücken Hotel,€ 81,2021-08-03
+"1,""Holiday Inn - Hamburg - Berliner Tor, an IHG Hotel"",€ 169,2021-08-03"
+2,Renaissance Hamburg Hotel,€ 179,2021-08-03
+3,Hamburg Marriott Hotel,€ 189,2021-08-03
+4,Hampton By Hilton Hamburg City Centre,€ 125,2021-08-03
+5,Generator Hamburg,€ 20,2021-08-03
+6,Courtyard by Marriott Hamburg Airport,€ 109,2021-08-03
+7,Novotel Suites Hamburg City,€ 124,2021-08-03
+"8,""Crowne Plaza Hamburg City Centre, an IHG Hotel"",€ 129,2021-08-03"
+9,prizeotel Hamburg-City,€ 74,2021-08-03
+10,Super 8 by Wyndham Hamburg Mitte,€ 119,2021-08-03
+11,Novotel Hamburg City Alster,€ 119,2021-08-03
+12,NH Hamburg Horner Rennbahn,€ 92,2021-08-03
+13,Best Western Plaza Hotel Hamburg,€ 67,2021-08-03
+14,ibis Hotel Hamburg Airport,€ 67,2021-08-03
+"15,""Holiday Inn Hamburg, an IHG Hotel"",€ 299,2021-08-03"
+16,Ibis budget Hamburg City Ost,€ 59,2021-08-03
+17,H4 Hotel Hamburg Bergedorf,€ 91,2021-08-03
+18,Lindner Hotel Am Michel,€ 170,2021-08-03
+19,Park Hotel Hamburg Arena,€ 70,2021-08-03
+20,Leonardo Hotel Hamburg Stillhorn,€ 79,2021-08-03
+21,NH Hamburg Mitte,€ 137,2021-08-03
+22,Leonardo Hotel Hamburg City Nord,€ 94,2021-08-03
+23,Select Hotel Hamburg Nord,€ 72,2021-08-03
+24,NH Hamburg Altona,€ 129,2021-08-03
