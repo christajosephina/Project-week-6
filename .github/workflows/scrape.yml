@@ -9,6 +9,7 @@ jobs:
     steps:
       - name: Check out this repo
         uses: actions/checkout@v2
+      - uses: nanasess/setup-chromedriver@master
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -25,3 +26,4 @@ jobs:
           timestamp=$(date -u)
           git commit -m "Latest data: ${timestamp}" || exit 0
           git push
+          
