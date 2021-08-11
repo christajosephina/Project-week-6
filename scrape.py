@@ -27,9 +27,16 @@ import pandas as pd
 
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+from selenium.webdriver.chrome.options import Options
+options = Options()
+options.add_argument('--headless')
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-gpu')
+options.add_argument('--disable-dev-shm-usage')
+options.add_argument('--disable-extensions')
+
+driver = webdriver.Chrome(options=options)
 
 
 # In[38]:
