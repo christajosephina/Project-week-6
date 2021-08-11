@@ -27,9 +27,8 @@ import pandas as pd
 
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+driver = webdriver.Chrome()
 
 
 # In[38]:
