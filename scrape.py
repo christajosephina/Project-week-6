@@ -184,9 +184,8 @@ df
 pd.read_csv('hamburghotelprices.csv')
 
 
-# In[50]:
+# In[ ]:
 
 
-with open("hamburghotelprices.csv", 'a') as f:
-    df.to_csv(f, header=f.tell()==0)
+pd.read_csv('hamburghotelprices.csv').append(df).drop_duplicates().to_csv('hamburghotelprices.csv', index=False)
 
