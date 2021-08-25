@@ -8,19 +8,19 @@
 #!pip install webdriver_manager
 
 
-# In[2]:
+# In[68]:
 
 
 import selenium
 
 
-# In[3]:
+# In[69]:
 
 
 #pip install selenium
 
 
-# In[30]:
+# In[70]:
 
 
 from selenium import webdriver
@@ -28,14 +28,29 @@ from selenium.webdriver.common.keys import Keys
 import pandas as pd
 
 
-# In[31]:
+# In[71]:
 
 
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+
+# In[72]:
+
+
+from selenium.webdriver.chrome.options import Options
+options = Options()
+options.add_argument('--headless')
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-gpu')
+options.add_argument('--disable-dev-shm-usage')
+options.add_argument('--disable-extensions')
+
+
+# In[73]:
+
+
+driver = webdriver.Chrome(options=options)
 
 
 # In[32]:
