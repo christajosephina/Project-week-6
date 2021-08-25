@@ -157,20 +157,21 @@ df
 df['Date']=today
 
 
-# In[46]:
+# In[48]:
 
 
 df
 
 
-# In[47]:
+# In[49]:
 
 
-pd.read_csv('hamburghotelprices.csv').append(df).drop_duplicates().to_csv('hamburghotelprices.csv', index=False)
+pd.read_csv('hamburghotelprices.csv')
 
 
-# In[ ]:
+# In[50]:
 
 
-
+with open("hamburghotelprices.csv", 'a') as f:
+    df.to_csv(f, header=f.tell()==0)
 
