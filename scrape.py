@@ -8,19 +8,19 @@
 #!pip install webdriver_manager
 
 
-# In[68]:
+# In[2]:
 
 
 import selenium
 
 
-# In[69]:
+# In[3]:
 
 
 #pip install selenium
 
 
-# In[70]:
+# In[4]:
 
 
 from selenium import webdriver
@@ -28,14 +28,14 @@ from selenium.webdriver.common.keys import Keys
 import pandas as pd
 
 
-# In[71]:
+# In[5]:
 
 
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium import webdriver
 
 
-# In[72]:
+# In[6]:
 
 
 from selenium.webdriver.chrome.options import Options
@@ -47,13 +47,13 @@ options.add_argument('--disable-dev-shm-usage')
 options.add_argument('--disable-extensions')
 
 
-# In[73]:
+# In[7]:
 
 
 driver = webdriver.Chrome(options=options)
 
 
-# In[32]:
+# In[8]:
 
 
 from bs4 import BeautifulSoup
@@ -65,7 +65,7 @@ from datetime import date
 import datetime as datetime
 
 
-# In[33]:
+# In[9]:
 
 
 today = date.today() 
@@ -74,7 +74,7 @@ day = today.day
 month = today.month
 
 
-# In[34]:
+# In[10]:
 
 
 tomorrow = date.today() + datetime.timedelta(days=1)
@@ -83,7 +83,7 @@ daytm = tomorrow.day
 monthtm = tomorrow.month
 
 
-# In[35]:
+# In[11]:
 
 
 year = str(year)
@@ -94,47 +94,47 @@ daytm = str(daytm)
 monthtm = str(monthtm)
 
 
-# In[36]:
+# In[12]:
 
 
 urltime = "https://www.booking.com/searchresults.nl.html?aid=376373&label=Boekings-nl-Nmlwg4ZjCgLYTSLOHsJrjgS267724993818%3Apl%3Ata%3Ap1%3Ap22.563.000%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp9043480%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YfpWGnRw6lOGtdKYocc2a8Y&sid=552e2254bbf42007c1fa7f86a7c26c19&sb=1&sb_lp=1&src=index&src_elem=sb&error_url=https%3A%2F%2Fwww.booking.com%2Findex.nl.html%3Faid%3D376373%3Blabel%3DBoekings-nl-Nmlwg4ZjCgLYTSLOHsJrjgS267724993818%253Apl%253Ata%253Ap1%253Ap22.563.000%253Aac%253Aap%253Aneg%253Afi%253Atikwd-65526620%253Alp9043480%253Ali%253Adec%253Adm%253Appccp%253DUmFuZG9tSVYkc2RlIyh9YfpWGnRw6lOGtdKYocc2a8Y%3Bsid%3D552e2254bbf42007c1fa7f86a7c26c19%3Bsb_price_type%3Dtotal%26%3B&ss=Hamburg&is_ski_area=0&ssne=Hamburg&ssne_untouched=Hamburg&dest_id=-1785434&dest_type=city&checkin_year=" + year + "&checkin_month=" + month + "&checkin_monthday=" + day + "&checkout_year=" + yeartm + "&checkout_month=" + monthtm + "&checkout_monthday=" + daytm + "&group_adults=1&group_children=0&no_rooms=1&b_h4u_keep_filters=&from_sf=1"
 
 
-# In[37]:
+# In[13]:
 
 
 driver.get(urltime)
 
 
-# In[38]:
+# In[14]:
 
 
 html = driver.page_source
 soup = BeautifulSoup(html, 'html.parser')
 
 
-# In[39]:
+# In[15]:
 
 
 names = []
 prices = []
 
 
-# In[40]:
+# In[16]:
 
 
 for item in soup.findAll('span', {'class': 'sr-hotel__name'}):
         names.append(item.get_text(strip=True))
 
 
-# In[41]:
+# In[17]:
 
 
 for item in soup.findAll('div', {'class':'bui-price-display__value prco-inline-block-maker-helper'}):
     prices.append(item.get_text(strip=True))
 
 
-# In[42]:
+# In[18]:
 
 
 for price, name in zip(prices, names):
@@ -143,7 +143,7 @@ for price, name in zip(prices, names):
     print(price)
 
 
-# In[43]:
+# In[19]:
 
 
 rows = []
@@ -159,32 +159,32 @@ for price, name in zip(prices, names):
     rows.append(row)
 
 
-# In[44]:
+# In[20]:
 
 
 df = pd.DataFrame(rows)
 df
 
 
-# In[45]:
+# In[21]:
 
 
 df['Date']=today
 
 
-# In[48]:
+# In[22]:
 
 
 df
 
 
-# In[49]:
+# In[23]:
 
 
 pd.read_csv('hamburghotelprices.csv')
 
 
-# In[ ]:
+# In[24]:
 
 
 pd.read_csv('hamburghotelprices.csv').append(df).drop_duplicates().to_csv('hamburghotelprices.csv', index=False)
